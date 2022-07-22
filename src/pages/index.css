@@ -1,0 +1,11 @@
+/* page */
+@import '../blocks/page/page.css';
+
+/* header */
+@import '../blocks/header/header.css';
+@import '../blocks/header/__square-pic/header__square-pic.css';
+
+/* table */
+@import '../blocks/table/table.css';
+@import '../blocks/table/__cell/__cell.css';
+@import '../blocks/table/__cell/_theme/table__cell_theme_dark.css';
