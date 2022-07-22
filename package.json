@@ -1,0 +1,21 @@
+{
+  "name": "how-to-learn-plus",
+  "version": "1.0.0",
+  "repository": "https://github.com/nikare/how-to-learn-plus",
+  "homepage": "https://nikare.github.io/how-to-learn-plus/",
+  "author": "Nikolay Karetskiy <lynxloner@icloud.com>",
+  "license": "MIT",
+  "source": "./src/index.html",
+  "engines": {
+    "node": ">=14",
+    "npm": ">=6"
+  },
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build --no-source-maps"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
+}
