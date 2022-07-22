@@ -5,7 +5,7 @@
   "homepage": "https://nikare.github.io/how-to-learn-plus/",
   "author": "Nikolay Karetskiy <lynxloner@icloud.com>",
   "license": "MIT",
-  "source": "./src/index.html",
+  "source": "./src/index.pug",
   "engines": {
     "node": ">=14",
     "npm": ">=6"
@@ -16,6 +16,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@parcel/transformer-pug": "2.6.2",
     "parcel": "^2.6.2"
   }
 }
