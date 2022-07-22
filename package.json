@@ -12,13 +12,15 @@
   },
   "scripts": {
     "start": "parcel --open",
-    "build": "parcel build --no-source-maps"
+    "build": "parcel build --no-source-maps",
+    "deploy": "rm -rf dist && yarn build --public-url=/how-to-learn-plus && gh-pages -d dist && yarn build"
   },
   "dependencies": {
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "@parcel/transformer-pug": "2.6.2",
+    "gh-pages": "^4.0.0",
     "parcel": "^2.6.2"
   }
 }
