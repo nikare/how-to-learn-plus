@@ -14,7 +14,9 @@
     "start": "parcel --open",
     "build": "parcel build --no-source-maps"
   },
-  "dependencies": {},
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
   "devDependencies": {
     "@parcel/transformer-pug": "2.6.2",
     "parcel": "^2.6.2"
