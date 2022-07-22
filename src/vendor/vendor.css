@@ -1,2 +1,5 @@
 /* node modules */
 @import 'npm:normalize.css';
+
+/* local */
+@import './fonts/fonts.css';
