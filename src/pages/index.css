@@ -5,7 +5,28 @@
 @import '../blocks/header/header.css';
 @import '../blocks/header/__square-pic/header__square-pic.css';
 
+/* content */
+@import '../blocks/content/content.css';
+
+/* description */
+@import '../blocks/description/description.css';
+
+/* techniques */
+@import '../blocks/techniques/techniques.css';
+
+/* digits */
+@import '../blocks/digits/digits.css';
+
+/* kaufman */
+@import '../blocks/kaufman/kaufman.css';
+
+/* resources */
+@import '../blocks/resources/resources.css';
+
 /* table */
 @import '../blocks/table/table.css';
 @import '../blocks/table/__cell/__cell.css';
 @import '../blocks/table/__cell/_theme/table__cell_theme_dark.css';
+
+/* footer */
+@import '../blocks/footer/footer.css';
