@@ -19,6 +19,23 @@
 @import '../blocks/two-columns/__paragraph/two-columns__paragraph.css';
 @import '../blocks/two-columns/__span-accent/two-columns__span-accent.css';
 
+/* techniques */
+@import '../blocks/techniques/techniques.css';
+@import '../blocks/techniques/__title/techniques__title.css';
+
+/* cards */
+@import '../blocks/cards/cards.css';
+@import '../blocks/cards/__item/cards__item.css';
+@import '../blocks/cards/__image/cards__image.css';
+@import '../blocks/cards/__title/cards__title.css';
+@import '../blocks/cards/__description/cards__description.css';
+
+/* section-title */
+@import '../blocks/section-title/section-title.css';
+
+/* section-subtitle */
+@import '../blocks/section-subtitle/section-subtitle.css';
+
 /* kaufman */
 @import '../blocks/kaufman/kaufman.css';
 

@@ -9,6 +9,7 @@ html(lang="ru")
 
   body
     .page
+      //- header
       header.header
         a.logo(href="/")
           img(src="./blocks/logo/logo-dark.svg" alt="Логотип Яндекс Практикум" width="228" height="32")
@@ -18,6 +19,7 @@ html(lang="ru")
         img.header__main-illustration(src="./blocks/header/__main-illustration/header__main-illustration.png" alt="Иллюстрация" width="765" height="608")
 
       main.content
+        //- description
         section.description
           .two-columns
             h2.two-columns__brief Главные проблемы в обучении
@@ -26,15 +28,35 @@ html(lang="ru")
               p.two-columns__paragraph <span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
               p.two-columns__paragraph Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
 
+        //- techniques
         section.techniques
+          h2.section-title.techniques__title Техники обучения
+          h3.section-subtitle Пять практик от Барбары Оакли
+          ul.cards
+            -
+              const cards = [
+                { title: 'Два вида внимания', description: 'Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.' },
+                { title: 'Recall', description: 'Вспоминайте изученное — это позволит соединить разрозненные порции памяти.' },
+                { title: 'Интерливинг', description: 'Изучайте несколько навыков одновременно, они обогащают друг друга.' },
+                { title: 'Вопросы ', description: 'Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.' },
+                { title: 'Иллюзия компетентности', description: 'Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.' }
+              ]
+            each card, index in cards
+              li.cards__item
+                img.cards__image(src=`./blocks/cards/__image/cards__image-${index + 1}.jpg` alt=`${card.title}` width="160" height="160")
+                h4.cards__title #{card.title}
+                p.cards__description #{card.description}
 
+        //- digits
         section.digits
 
+        //- kaufman
         section.kaufman
 
+        //- resources
         section.resources
 
+      //- footer
       footer.footer
         a.logo(href="/")
           img(src="./blocks/logo/logo-light.svg" alt="Логотип Яндекс Практикум" width="228" height="32")
-
