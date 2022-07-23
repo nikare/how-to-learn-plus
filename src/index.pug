@@ -13,14 +13,18 @@ html(lang="ru")
         a.logo(href="/")
           img(src="./blocks/logo/logo-dark.svg" alt="Логотип Яндекс Практикум" width="228" height="32")
         h1.header__title Научиться учиться
-        h2.header__subtitle
-          | Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? 
-          a.header__link(href="#") Узнать →
+        h2.header__subtitle Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__link">Узнать →</a>
         .header__square-pic
         img.header__main-illustration(src="./blocks/header/__main-illustration/header__main-illustration.png" alt="Иллюстрация" width="765" height="608")
 
       main.content
         section.description
+          .two-columns
+            h2.two-columns__brief Главные проблемы в обучении
+            .two-columns__main-text
+              p.two-columns__paragraph Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.
+              p.two-columns__paragraph <span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
+              p.two-columns__paragraph Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
 
         section.techniques
 

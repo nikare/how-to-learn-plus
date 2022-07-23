@@ -9,27 +9,20 @@
 @import '../blocks/header/__main-illustration/header__main-illustration.css';
 @import '../blocks/header/__square-pic/header__square-pic.css';
 
-/* content */
-@import '../blocks/content/content.css';
-
 /* description */
 @import '../blocks/description/description.css';
 
-/* techniques */
-@import '../blocks/techniques/techniques.css';
-
-/* digits */
-@import '../blocks/digits/digits.css';
+/* two-columns */
+@import '../blocks/two-columns/two-columns.css';
+@import '../blocks/two-columns/__main-text/two-columns__main-text.css';
+@import '../blocks/two-columns/__brief/two-columns__brief.css';
+@import '../blocks/two-columns/__paragraph/two-columns__paragraph.css';
+@import '../blocks/two-columns/__span-accent/two-columns__span-accent.css';
 
 /* kaufman */
 @import '../blocks/kaufman/kaufman.css';
 
-/* resources */
-@import '../blocks/resources/resources.css';
-
 /* table */
-@import '../blocks/table/table.css';
-@import '../blocks/table/__cell/__cell.css';
 @import '../blocks/table/__cell/_theme/table__cell_theme_dark.css';
 
 /* footer */
