@@ -1,5 +1,12 @@
 .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  padding: 30px 64px;
+  box-sizing: border-box;
 }

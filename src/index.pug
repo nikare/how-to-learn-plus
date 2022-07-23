@@ -10,6 +10,14 @@ html(lang="ru")
   body
     .page
       header.header
+        a.logo(href="/")
+          img(src="./blocks/logo/logo-dark.svg" alt="Логотип Яндекс Практикум" width="228" height="32")
+        h1.header__title Научиться учиться
+        h2.header__subtitle
+          | Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? 
+          a.header__link(href="#") Узнать →
+        .header__square-pic
+        img.header__main-illustration(src="./blocks/header/__main-illustration/header__main-illustration.png" alt="Иллюстрация" width="765" height="608")
 
       main.content
         section.description
@@ -23,3 +31,6 @@ html(lang="ru")
         section.resources
 
       footer.footer
+        a.logo(href="/")
+          img(src="./blocks/logo/logo-light.svg" alt="Логотип Яндекс Практикум" width="228" height="32")
+
