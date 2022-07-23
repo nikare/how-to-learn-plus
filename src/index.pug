@@ -34,14 +34,14 @@ html(lang="ru")
           h3.section-subtitle Пять практик от Барбары Оакли
           ul.cards
             -
-              const cards = [
+              const techniquesCards = [
                 { title: 'Два вида внимания', description: 'Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.' },
                 { title: 'Recall', description: 'Вспоминайте изученное — это позволит соединить разрозненные порции памяти.' },
                 { title: 'Интерливинг', description: 'Изучайте несколько навыков одновременно, они обогащают друг друга.' },
                 { title: 'Вопросы ', description: 'Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.' },
-                { title: 'Иллюзия компетентности', description: 'Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.' }
+                { title: 'Иллюзия компетентности', description: 'Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.' },
               ]
-            each card, index in cards
+            each card, index in techniquesCards
               li.cards__item
                 img.cards__image(src=`./blocks/cards/__image/cards__image-${index + 1}.jpg` alt=`${card.title}` width="160" height="160")
                 h4.cards__title #{card.title}
@@ -49,6 +49,25 @@ html(lang="ru")
 
         //- digits
         section.digits
+          h2.section-title.digits__title Цифры и факты
+          h3.section-subtitle Про учёбу и мозг
+          ul.table
+            -
+              const digitsCells = [
+                { heading: '86 миллиардов', text: ['Число нейронов в мозге человека'] },
+                { heading: '2,1 миллиарда', text: ['Число нуждающихся в повышении квалификации', 'Всемирный Банк, 2017'] },
+                { heading: '1000 терабайт', text: ['Объём памяти человека'] },
+                { heading: '500 триллионов', text: ['Число ответственных за обучение нервных синапсов у взрослого человека'] },
+                { heading: '420 миллионов', text: ['Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства', 'Всемирный Банк, 2017'] },
+                { heading: '17-20 лет', text: ['Пик обучаемости'] },
+                { heading: '1885 год', text: ['Открытие кривой забывания'] },
+                { heading: '1889 год', text: ['Открытие условного рефлекса'] },
+              ]
+            each cell in digitsCells
+              li.table__cell
+                h4.table__heading #{cell.heading}
+                each text in cell.text
+                  p.table__text #{text}
 
         //- kaufman
         section.kaufman

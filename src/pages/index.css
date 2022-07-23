@@ -36,11 +36,19 @@
 /* section-subtitle */
 @import '../blocks/section-subtitle/section-subtitle.css';
 
-/* kaufman */
-@import '../blocks/kaufman/kaufman.css';
+/* digits */
+@import '../blocks/digits/digits.css';
+@import '../blocks/digits/__title/digits__title.css';
 
 /* table */
+@import '../blocks/table/table.css';
+@import '../blocks/table/__cell/__cell.css';
 @import '../blocks/table/__cell/_theme/table__cell_theme_dark.css';
+@import '../blocks/table/__heading/table__heading.css';
+@import '../blocks/table/__text/table__text.css';
+
+/* kaufman */
+@import '../blocks/kaufman/kaufman.css';
 
 /* footer */
 @import '../blocks/footer/footer.css';
