@@ -49,6 +49,7 @@
 
 /* kaufman */
 @import '../blocks/kaufman/kaufman.css';
+@import '../blocks/kaufman/__title/kaufman__title.css';
 
 /* footer */
 @import '../blocks/footer/footer.css';
