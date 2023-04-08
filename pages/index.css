@@ -4,6 +4,10 @@
 /* fonts */
 @import url('../fonts/fonts.css');
 
+/* mixins */
+@import url('../blocks/dark-block/dark-block.css');
+@import url('../blocks/link/link.css');
+
 /* page */
 @import url('../blocks/page/page.css');
 
@@ -11,7 +15,28 @@
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__square-pic/header__square-pic.css');
 
+/* content */
+@import url('../blocks/content/content.css');
+
+/* description */
+@import url('../blocks/description/description.css');
+
+/* techniques */
+@import url('../blocks/techniques/techniques.css');
+
+/* digits */
+@import url('../blocks/digits/digits.css');
+
+/* kaufman */
+@import url('../blocks/kaufman/kaufman.css');
+
+/* resources */
+@import url('../blocks/resources/resources.css');
+
 /* table */
 @import url('../blocks/table/table.css');
 @import url('../blocks/table/__cell/table__cell.css');
 @import url('../blocks/table/__cell/_theme/table__cell_theme_dark.css');
+
+/* footer */
+@import url('../blocks/footer/footer.css');
