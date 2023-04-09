@@ -7,8 +7,8 @@
 /* mixins */
 @import url('../blocks/dark-block/dark-block.css');
 @import url('../blocks/link/link.css');
-@import url('../blocks/title/title.css');
-@import url('../blocks/subtitle/subtitle.css');
+@import url('../blocks/section-title/section-title.css');
+@import url('../blocks/section-subtitle/section-subtitle.css');
 
 /* page */
 @import url('../blocks/page/page.css');
@@ -52,16 +52,18 @@
 /* digits */
 @import url('../blocks/digits/digits.css');
 
+/* table */
+@import url('../blocks/table/table.css');
+@import url('../blocks/table/__cell/table__cell.css');
+@import url('../blocks/table/__cell/_theme/table__cell_theme_dark.css');
+@import url('../blocks/table/__heading/table__heading.css');
+@import url('../blocks/table/__text/table__text.css');
+
 /* kaufman */
 @import url('../blocks/kaufman/kaufman.css');
 
 /* resources */
 @import url('../blocks/resources/resources.css');
-
-/* table */
-@import url('../blocks/table/table.css');
-@import url('../blocks/table/__cell/table__cell.css');
-@import url('../blocks/table/__cell/_theme/table__cell_theme_dark.css');
 
 /* footer */
 @import url('../blocks/footer/footer.css');
