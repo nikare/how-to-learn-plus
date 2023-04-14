@@ -2,4 +2,7 @@
   position: absolute;
   top: 0;
   right: -210px;
+  width: 995px;
+  height: 1006px;
+  background-image: url('../../../images/kaufman-triangle.svg');
 }
