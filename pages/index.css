@@ -6,6 +6,7 @@
 
 /* mixins */
 @import url('../blocks/link/link.css');
+@import url('../blocks/rotation/rotation.css');
 
 /* page */
 @import url('../blocks/page/page.css');
@@ -95,6 +96,7 @@
 
 /* kaufman */
 @import url('../blocks/kaufman/kaufman.css');
+@import url('../blocks/kaufman/__triangle/kaufman__triangle.css');
 
 /* resources */
 @import url('../blocks/resources/resources.css');
